@@ -9,3 +9,5 @@ The slope of our linear model is not zero. The adjusted R-squared value is .685 
 
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 This linear model accounts for about 70 percent of the variance of the mpg values in the MechaCar dataset, which is adequate but could be stronger. The linear model suggests a relationship between vehicle length and ground clearance to mpg values. I would personally prefer a slightly stronger r-squared value.
+
+## Summary Statistics on Suspension Coils
