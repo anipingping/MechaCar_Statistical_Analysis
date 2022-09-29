@@ -33,3 +33,23 @@ LOT 2: Manufacturing Lot 2 has a p-value of .6072, large enough that we cannot r
 LOT 3: Manufacturing Lot 3 has a small p-value of .04168, small enough that we CAN reject the null hypothesis at the 95 percent confidence interval. The Lot 3 sample mean IS statistically different than the population mean. This should concern MechaCar manufacturers. Something is happening in Lot 3.
 
 ![ttest_lot_3](https://user-images.githubusercontent.com/106618404/193153958-49dc27eb-2296-47e6-ab3e-ed86e12e46da.PNG)
+
+
+## Study Design: MechaCar vs Competition
+
+### Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+
+#### What metric or metrics are you going to test?
+With the cost of gasoline skyrocketing (it is close to $7 for a gallon of gas in Sonoma County, California), an obvious and relevant exercise is to compare the mpg of the MechaCar against its competitors. 
+
+#### What is the null hypothesis or alternative hypothesis?
+The null hypothesis is probably as follows: there is no statistical difference between the average miles per gallon of the MechaCar and the average miles per gallon of MechaCar's 3 closest competitors by market share.
+
+#### What statistical test would you use to test the hypothesis? And why?
+I would compare the mean miles per gallon of the MechaCar from all manufacturing lots with the mean miles per gallon of MechaCar's 3 closest competitors.
+
+#### What data is needed to run the statistical test?
+We have most of the data already. We have mpg from the mechacar dataframe. We simply need the mpg from the 3 nearest competitors -- whether that is Toyota, Nissan, Honda, Ford, GM, or whatnot is to be determined -- but the comparision would be fairly straightforward and, potentially, very powerful for MechaCar's marketing efforts.
+
+
+
