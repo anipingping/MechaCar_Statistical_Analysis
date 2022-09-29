@@ -15,6 +15,7 @@ This linear model accounts for about 70 percent of the variance of the mpg value
 
 
 The table below clearly demonstrates that the variance of the suspension coils coming out of Manufacturing Lot 3 exceeds the design specifications for the MechaCar. The variance is currently over 170 PSI. Lots 1 and 2 appear to be within range.
+
 ![Lot_Summary](https://user-images.githubusercontent.com/106618404/193146691-8ae7d72f-0489-4bf9-b1b8-a7efff3ce50c.PNG)
 
 ## T-Tests on Suspension Coils 
@@ -40,7 +41,7 @@ LOT 3: Manufacturing Lot 3 has a small p-value of .04168, small enough that we C
 ### Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
 #### What metric or metrics are you going to test?
-With the cost of gasoline skyrocketing (it is close to $7 for a gallon of gas in Sonoma County, California), an obvious and relevant exercise is to compare the mpg of the MechaCar against its competitors. 
+With the cost of gasoline skyrocketing (it is close to $7 for a gallon of gas in Sonoma County, California), an obvious and relevant exercise is to compare the mpg of the MechaCar against its competitors. If MechaCar can be shown statistically to have better fuel economy than its competitors then it has a significant competitive advantage in the market place and should sell a lot of vehicles.
 
 #### What is the null hypothesis or alternative hypothesis?
 The null hypothesis is probably as follows: there is no statistically significant difference between the average miles per gallon of the MechaCar and the average miles per gallon of MechaCar's 3 closest competitors by market share. Any difference is random and cannot be used to argue that MechaCar is a more fuel efficient vehicle.
