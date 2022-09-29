@@ -43,7 +43,7 @@ LOT 3: Manufacturing Lot 3 has a small p-value of .04168, small enough that we C
 With the cost of gasoline skyrocketing (it is close to $7 for a gallon of gas in Sonoma County, California), an obvious and relevant exercise is to compare the mpg of the MechaCar against its competitors. 
 
 #### What is the null hypothesis or alternative hypothesis?
-The null hypothesis is probably as follows: there is no statistical difference between the average miles per gallon of the MechaCar and the average miles per gallon of MechaCar's 3 closest competitors by market share.
+The null hypothesis is probably as follows: there is no statistically significant difference between the average miles per gallon of the MechaCar and the average miles per gallon of MechaCar's 3 closest competitors by market share. Any difference is random and cannot be used to argue that MechaCar is a more fuel efficient vehicle.
 
 #### What statistical test would you use to test the hypothesis? And why?
 I would compare the mean miles per gallon of the MechaCar from all manufacturing lots with the mean miles per gallon of MechaCar's 3 closest competitors.
