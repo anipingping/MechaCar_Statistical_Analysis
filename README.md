@@ -18,3 +18,18 @@ The table below clearly demonstrates that the variance of the suspension coils c
 ![Lot_Summary](https://user-images.githubusercontent.com/106618404/193146691-8ae7d72f-0489-4bf9-b1b8-a7efff3ce50c.PNG)
 
 ## T-Tests on Suspension Coils 
+ALL LOTS: The one-sample t-test below, with a p-value of .06028, means that we cannot reject the null that the sample mean for all lots is not statistically different from the population mean.
+
+![ttest_all_lots](https://user-images.githubusercontent.com/106618404/193153909-1ee3f8e3-473f-4f32-877c-7cf055a15bd3.PNG)
+
+LOT 1: Manufacturing Lot 1 has a p-value of 1, which is exactly the mean. The mean PSI of Manufacturing Lot 1 is the same as the population mean. We cannot reject the null hypothesis.
+
+![ttest_lot_1](https://user-images.githubusercontent.com/106618404/193153929-cb04bf70-7231-4619-a3dd-6814939706f5.PNG)
+
+LOT 2: Manufacturing Lot 2 has a p-value of .6072, large enough that we cannot reject the null. The Lot 2 sample mean is not statistically different from the population mean.
+
+![ttest_lot_2](https://user-images.githubusercontent.com/106618404/193153944-4dc3eb5c-39bf-4001-87e2-2fcd901bd94f.PNG)
+
+LOT 3: Manufacturing Lot 3 has a small p-value of .04168, small enough that we CAN reject the null hypothesis at the 95 percent confidence interval. The Lot 3 sample mean IS statistically different than the population mean. This should concern MechaCar manufacturers. Something is happening in Lot 3.
+
+![ttest_lot_3](https://user-images.githubusercontent.com/106618404/193153958-49dc27eb-2296-47e6-ab3e-ed86e12e46da.PNG)
