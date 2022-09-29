@@ -11,3 +11,8 @@ The slope of our linear model is not zero. The adjusted R-squared value is .685 
 This linear model accounts for about 70 percent of the variance of the mpg values in the MechaCar dataset, which is adequate but could be stronger. The linear model suggests a relationship between vehicle length and ground clearance to mpg values. I would personally prefer a slightly stronger r-squared value.
 
 ## Summary Statistics on Suspension Coils
+### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+![Lot_Summary](https://user-images.githubusercontent.com/106618404/193146691-8ae7d72f-0489-4bf9-b1b8-a7efff3ce50c.PNG)
+
+
